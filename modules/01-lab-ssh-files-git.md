@@ -20,7 +20,7 @@ Data from `/var/log/auth.log`, checked on 2026-11-07.
 - **Accepted SSH logins: 15** (`grep "Accepted" /var/log/auth.log`). 2 used a password (the first two, on 5 Nov) and 13 used the Ed25519 key.
 - **Failed SSH logins: 1** (`grep "Failed" /var/log/auth.log`): `Failed password for invalid user toto`. I triggered it myself to test. The second line returned by this grep is only my own `sudo grep` command logged by sudo, not a failed login.
 - **Source addresses:** all connections come from `192.168.83.1` (my Windows PC, through the VMware network). No unknown address.
-- **Biggest file in `/var/log`:** `<FILE>`, `<SIZE>` (`ls -lSh /var/log`, sorted by size).
+- **Biggest file in `/var/log`:** `syslog`, `1.1M` (`ls -lSh /var/log`, sorted by size).
 
 ## Incidents
 
