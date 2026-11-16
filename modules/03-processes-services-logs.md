@@ -1,2 +1,3 @@
 # Module 03 — Processes, services, logs and packages
 - 2026-11-16 · S1 · Learned: tracing a CPU hog from uptime and ps to its parent (pstree) and its origin in auth.log, then stopping it with TERM via sudo · Stuck on: remembering the ps options, so I keep one template and adapt it
+- 2026-11-16 · S2 · Learned: writing and debugging a systemd unit (dedicated user, absolute ExecStart path, Restart=on-failure, enable vs start, daemon-reload) and hardening it with a drop-in, from 9.2 UNSAFE to 6.2 MEDIUM with systemd-analyze security · Stuck on: how units and drop-ins fit together, and what each hardening option really forbids

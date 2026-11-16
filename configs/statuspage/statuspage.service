@@ -1,0 +1,15 @@
+[Unit]
+Description=Status page de lab-01 (ticket #305)
+After=network.target
+
+[Service]
+User=statuspage
+Group=statuspage
+Environment=PORT=8080
+Environment=BIND=0.0.0.0
+ExecStart=/usr/bin/python3 -m http.server ${PORT} --bind ${BIND} --directory /srv/statuspage
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
