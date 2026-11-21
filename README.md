@@ -19,7 +19,9 @@ Target role: Cloud / DevOps engineer.
 | Module | Topic | Status |
 | --- | --- | --- |
 | 01 | Lab, SSH, files and Git | Done |
-| 02 | Shell, users, permissions, sudo and vim | In progress |
+| 02 | Shell, users, permissions, sudo and vim | Done |
+| 03 | Processus, services, logs et paquets | Done |
+
 
 ## Roadmap
 Linux and Git, Bash and Python, Docker and CI/CD, AWS and Terraform, Kubernetes with Helm and Argo CD, then observability and DevSecOps.

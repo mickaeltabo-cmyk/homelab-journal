@@ -5,5 +5,7 @@
     delaycompress
     missingok
     notifempty
-    copytruncate
+    postrotate
+        systemctl kill -s HUP statuspage.service
+    endscript
 }
