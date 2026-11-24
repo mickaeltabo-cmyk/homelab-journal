@@ -1,0 +1,2 @@
+# Module 04 — Disk, storage and PostgreSQL
+- 2026-11-24 · S1 · Learned: reading the storage layers with lsblk and df, adding a volume (GPT partition, ext4, fstab mount by UUID with nofail), growing it online with growpart and resize2fs, and booting without the volume thanks to nofail · Stuck on: what a volume is and how to write to a specific one (it is just the mount point), and finding the right vmdk file to reattach the disk

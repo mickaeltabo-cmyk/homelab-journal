@@ -21,6 +21,7 @@ Target role: Cloud / DevOps engineer.
 | 01 | Lab, SSH, files and Git | Done |
 | 02 | Shell, users, permissions, sudo and vim | Done |
 | 03 | Processus, services, logs et paquets | Done |
+| 04 | Disk, storage and PostgreSQL | Done |
 
 
 ## Roadmap
